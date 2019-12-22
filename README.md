@@ -11,6 +11,7 @@ Deep learning app made for T1-weighted MRI brain segmentation using ANTsRNet/ANT
 or 
 
 * python3
+* pip install nibabel Pillow
 * ANTsPy (https://github.com/ANTsX/ANTsPy) installation
 * ANTsPyNet (https://github.com/ANTsX/ANTsPyNet) installation
 
@@ -60,7 +61,7 @@ Total elapsed time: 40.53251 seconds
 #  MacBook Pro 2016 (no GPU)
 #
 
-$ python3 Scripts/doBrainTissueSegmentation.py Data/Example/1097782_defaced_MPRAGE.nii.gz Data/Example 1097782_defaced_MPRAGEBrainExtractionMask.nii.gz output Data/Template/S_template3_resampled2.nii.gz
+$ python3 Scripts/doBrainTissueSegmentation.py Data/Example/1097782_defaced_MPRAGE.nii.gz Data/Example/1097782_defaced_MPRAGEBrainExtractionMask.nii.gz output Data/Template/S_template3_resampled2.nii.gz
   (elapsed time:  0.24991798400878906  seconds)
 Using TensorFlow backend.
 Reading reorientation template Data/Template/S_template3_resampled2.nii.gz
